@@ -1,0 +1,655 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    background-image: url(./Imgs/the_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 850px;
+}
+
+.the_navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.33px solid #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.pictures {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.pictures img {
+    width: 31.96px;
+    height: 29.05px;
+}
+
+.words {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+.words a {
+    font-size: 19.97px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.words a:hover {
+    color: #EB4C56;
+}
+
+.things_used_in_site {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.things_used_in_site h5 {
+    font-size: 22.29px;
+    color: #FFFFFF;
+}
+
+.things_used_in_site h1 {
+    font-size: 150px;
+    color: #FFFFFF;
+}
+
+.things_used_in_site button {
+    width: 175px;
+    height: 58px;
+    background-color: #EB4C56;
+    border: none;
+    margin-top: 10px;
+}
+
+.things_used_in_site button a {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.the_opportunity {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.shape {
+    display: flex;
+}
+
+.pay {
+    display: flex;
+}
+
+.support {
+    display: flex;
+}
+
+.inside_of_shape {
+    margin-left: 15px;
+}
+
+.inside_of_shape h3 {
+    font-size: 23.27px;
+    color: #081323;
+}
+
+.inside_of_shape p {
+    font-size: 15.27px;
+    color: #828282;
+    margin-top: 8px;
+}
+
+.the_new_section {
+    margin-top: 100px;
+    margin-left: 110px;
+}
+
+.name_of_sec{
+    display: flex;
+    gap: 15px;
+}
+
+.name_of_sec h4 {
+    font-size: 17.01px;
+    color: #EB4C56;
+}
+
+.box {
+    width: 60px;
+    height: 1.12px;
+    border: 1.12px solid #EB4C56;
+    margin-top: 11px;
+}
+
+.the_new_section h1 {
+    font-size: 49px;
+    color: #1B1A1F;
+    margin-top: 20px;
+}
+
+.using_for_buying{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: -10px;
+}
+
+.using_for_buying ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    padding-bottom: 5px;
+}
+
+.using_for_buying ul a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 19.27px;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 1.12px solid;
+    padding-bottom: 5px;
+}
+
+.using_for_buying ul a:hover {
+    color: #EB4C56;
+}
+
+.pictures_of_section img {
+    width: 259.99px;
+    height: 259.99px;
+}
+
+.pictures_of_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 259.99px;
+    height: 70.9px;
+    background-color: #FFFFFF;
+}
+
+.pictures_of_section h5 {
+    font-size: 20.42px;
+    color: #111010;
+    margin-top: 15px;
+}
+
+.the_price {
+    display: flex;
+    gap: 10px;
+}
+
+.the_highest_price {
+    font-size: 9.81px;
+    color: #CACACA;
+    margin-top: 5px;
+}
+
+.the_lowest_price {
+    font-size: 15.22px;
+    color: #11101080;
+}
+
+.main_section {
+    margin-top: 230px;
+}
+
+.in_the_main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.in_the_main_second {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 320px;
+}
+
+.the_btn_of_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.the_btn_of_product button {
+    width: 200px;
+    height: 50px;
+    background-color: #EB4C56;
+    border: none;
+}
+
+.the_btn_of_product button a {
+    font-size: 17.15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.photos_of_galery {
+    margin-top: 100px;
+    margin-left: 75px;
+}
+
+.photos_of_galery h1 {
+    font-size: 45px;
+    color: #1B1A1F;
+}
+
+.color_section {
+    background-color: #F8F8F8;
+}
+
+.take_photos_in_snow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.the_man {
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.the_man img {
+    width: 392px;
+    height: 598px;
+}
+
+.there_are_two_mans {
+    margin-left: 100px;
+    margin-top: -67px;
+}
+
+.there_are_two_mans img {
+    width: 521px;
+    height: 331.42px;
+}
+
+.the_third_man {
+    margin-top: 25px;
+}
+
+.next_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.next_section h1 {
+    font-size: 50px;
+    color: #1B1A1F;
+}
+
+.next_section p {
+    font-size: 18.5px;
+    color: #2F2E30;
+}
+
+.the_another_three_images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.the_glass {
+    width: 400px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.the_board {
+    width: 567px;
+    height: 496px;
+    margin-top: 40px;
+}
+
+.the_bottle img {
+    width: 804px;
+    height: 626px;
+}
+
+.the_price_of_board {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.the_price_of_board h1 {
+    font-size: 22.57px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.the_price_of_board h5 {
+    font-size: 22.57px;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.price_helmet {
+    display: flex;
+    align-items: center;
+    gap: 190px;
+    margin-top: -40px;
+}
+
+.price_helmet h1 {
+    font-size: 21.57px;
+    color: #000000;
+    margin-left: 15px;
+}
+
+.price_helmet h5 {
+    font-size: 21.6px;
+    color: #000000;}
+
+.another_price {
+    margin-top: -80px;
+    margin-left: 20px;
+}
+
+.another_price h1 {
+    font-size: 31.29px;
+    color: #000000;
+}
+
+.another_price h5 {
+    font-size: 19px;
+    color: #000000;
+}
+
+.second_btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.second_btn button {
+    width: 200px;
+    height: 50px;
+    background-color: #EB4C56;
+    border: none;
+}
+
+.second_btn button a {
+    font-size: 17.15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.the_logo_components {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tesla {
+    width: 138.99px;
+    height: 18.02px;
+}
+
+.sign {
+    width: 117.19px;
+    height: 24.76px;
+}
+
+.maze {
+    width: 136.43px;
+    height: 23.66px;
+}
+
+.uber {
+    width: 59.38px;
+    height: 22.56px;
+}
+
+.miro {
+    width: 85.02px;
+    height: 32.48px;
+}
+
+.discord {
+    width: 167.99px;
+    height: 31.37px;
+}
+
+.choosing_us {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.choosing_us img {
+    width: 385px;
+    height: 601.34px;
+    margin-left: 100px;
+}
+
+.the_question {
+    margin-left: 80px;
+}
+
+.the_question h2 {
+    font-size: 38.42px;
+    color: #1B1A1F;
+}
+
+.the_question p {
+    font-size: 18.88px;
+    color: #2F2E30;
+    margin-top: 25px;
+}
+
+.the_question li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.the_question li a {
+    font-size: 18.88px;
+    color: #2F2E30;
+}
+
+.the_sentences {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.the_sentences h2 {
+    font-size: 25.4px;
+    color: #1B1A1F;
+}
+
+.the_sentences p {
+    font-size: 18.88px;
+    color: #2F2E30;
+    margin-top: 20px;
+}
+
+.about_video {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about_video h1 {
+    font-size: 60px;
+    color: #1B1A1F;
+}
+
+.about_video p {
+    font-size: 17px;
+    color: #2F2E30;
+}
+
+.you_tube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.the_map {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the_map img {
+    width: 1100px;
+    height: 500px;
+}
+
+.in_the_map {
+    width: 984px;
+    height: 179px;
+    margin-left: 250px;
+    background-color: #FFFFFF;
+    margin-top: -200px;
+    position: absolute;
+    border-radius: 16px;
+}
+
+.in_the_map h3 {
+    margin-left: 50px;
+    font-size: 31px;
+    color: #222222;
+    margin-top: 15px;
+}
+
+.the_input {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 15px;
+}
+
+.the_input p {
+    margin-left: 50px;
+    font-size: 15px;
+    color: #555555;
+}
+
+.the_input input {
+    width: 406px;
+    height: 40px;
+    margin-left: 200px;
+    font-size: 13px;
+    color: #555555;
+    border-radius: 50px;
+    background-color: #FAFAFA;
+    border: none;
+    padding-left: 15px;
+}
+
+.the_input form button {
+    width: 104px;
+    height: 40px;
+    background-color: #050038;
+    border-radius: 50px;
+    border: none;
+    margin-left: 500px;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #1B1A1F;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.the_end {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.last_input img {
+    width: 45.77px;
+    height: 45.77px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.last_input form a img {
+    width: 21.18px;
+    height: 21.18px;
+    margin-left: -30px;
+    position: absolute;
+
+}
+
+.last_input input {
+    width: 436px;
+    height: 43.47px;
+    background-color: #5E5E5E;
+    border: none;
+    padding-left: 15px;
+}
+
+.end_tag_a ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+}
+
+.end_tag_a ul a {
+    font-size: 18.78px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.the_end h4 {
+    font-size: 23.22px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
